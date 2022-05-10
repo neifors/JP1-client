@@ -7,8 +7,7 @@
     "test": "jest --watchAll --verbose --setupFilesAfterEnv ./src/test/setupTests.js",
     "coverage": "jest --setupFilesAfterEnv ./src/test/setupTests.js --coverage --silent --watchAll=false",
     "dev": "webpack serve --mode development --config config/webpack.config.dev.js",
-    "build": "webpack --config config/webpack.config.production.js",
-    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
+    "build": "webpack --config config/webpack.config.production.js"
   },
   "author": "",
   "license": "ISC",
