@@ -11,7 +11,7 @@ export function FilmSwipe() {
 
     // const { response, error, loading } = useAxios({ url: "http://127.0.0.1:8000/get_movies/" })
     const { response, error, loading } = useAxiosPost({ 
-        url: "http://127.0.0.1:8000/get_movies/",
+        url: "https://just-pick-1-api.herokuapp.com/get_movies/",
         header: JSON.stringify({
             "Access-Control-Allow-Origin":"*"
         }),
